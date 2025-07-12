@@ -1,0 +1,13 @@
+{
+ "creation": "2025-07-12 20:42:22.275926",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart Source",
+ "idx": 0,
+ "modified": "2025-07-12 20:42:22.275926",
+ "modified_by": "Administrator",
+ "module": "Task Tracker",
+ "name": "Overdue Highlights",
+ "owner": "Administrator",
+ "source_name": "Overdue Highlights",
+ "timeseries": 0
+}

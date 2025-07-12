@@ -1,0 +1,20 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Dashboard Chart Source",
+  "modified": "2025-07-12 18:52:23.858239",
+  "module": "Task Tracker",
+  "name": "Completed vs Failed Tasks",
+  "source_name": "Completed vs Failed Tasks",
+  "timeseries": 0
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Dashboard Chart Source",
+  "modified": "2025-07-12 20:42:22.275926",
+  "module": "Task Tracker",
+  "name": "Overdue Highlights",
+  "source_name": "Overdue Highlights",
+  "timeseries": 0
+ }
+]

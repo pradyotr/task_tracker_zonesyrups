@@ -1,0 +1,13 @@
+{
+ "creation": "2025-07-12 18:52:23.858239",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart Source",
+ "idx": 0,
+ "modified": "2025-07-12 18:52:23.858239",
+ "modified_by": "Administrator",
+ "module": "Task Tracker",
+ "name": "Completed vs Failed Tasks",
+ "owner": "Administrator",
+ "source_name": "Completed vs Failed Tasks",
+ "timeseries": 0
+}

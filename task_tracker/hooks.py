@@ -5,6 +5,11 @@ app_description = "Task Assignment & Auto-Score Calculator"
 app_email = "pradyotraina@gmail.com"
 app_license = "unlicense"
 
+fixtures = [
+    "Dashboard",
+    "Dashboard Chart",
+    "Dashboard Chart Source"
+]
 # Apps
 # ------------------
 

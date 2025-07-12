@@ -1,0 +1,37 @@
+[
+ {
+  "cards": [],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Person-wise Average Score",
+    "parent": "Task Tracker Analytics",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Completed vs Failed",
+    "parent": "Task Tracker Analytics",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Days Overdue",
+    "parent": "Task Tracker Analytics",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "dashboard_name": "Task Tracker Analytics",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-07-12 20:43:40.811484",
+  "module": null,
+  "name": "Task Tracker Analytics"
+ }
+]
