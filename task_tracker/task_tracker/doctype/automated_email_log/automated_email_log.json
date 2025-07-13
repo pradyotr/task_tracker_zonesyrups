@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "AUTO-.######",
+ "creation": "2025-07-13 14:23:31.485338",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_name",
+  "column_break_stxf",
+  "sent_date",
+  "mail_details_section",
+  "prompt",
+  "email_snippet",
+  "error"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_stxf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sent_date",
+   "fieldtype": "Date",
+   "label": "Sent Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "mail_details_section",
+   "fieldtype": "Section Break",
+   "label": "Mail Details"
+  },
+  {
+   "fieldname": "prompt",
+   "fieldtype": "Text",
+   "label": "Prompt",
+   "read_only": 1
+  },
+  {
+   "fieldname": "email_snippet",
+   "fieldtype": "Code",
+   "label": "Email Snippet",
+   "read_only": 1
+  },
+  {
+   "fieldname": "error",
+   "fieldtype": "Text",
+   "label": "Error",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-13 15:59:40.162799",
+ "modified_by": "Administrator",
+ "module": "Task Tracker",
+ "name": "Automated Email Log",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

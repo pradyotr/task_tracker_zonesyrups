@@ -153,23 +153,28 @@ fixtures = [
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-# 	"all": [
-# 		"task_tracker.tasks.all"
-# 	],
-# 	"daily": [
-# 		"task_tracker.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"task_tracker.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"task_tracker.tasks.weekly"
-# 	],
-# 	"monthly": [
-# 		"task_tracker.tasks.monthly"
-# 	],
-# }
+scheduler_events = {
+	"all": [
+		"task_tracker.tasks.all"
+	],
+	"daily": [
+		"task_tracker.tasks.daily"
+	],
+	"hourly": [
+		"task_tracker.tasks.hourly"
+	],
+	"weekly": [
+		"task_tracker.tasks.weekly"
+	],
+	"monthly": [
+		"task_tracker.tasks.monthly"
+	],
+    "cron": {
+        "55 15 * * *": [
+            "task_tracker.api.send_automated_follow_up_email"
+        ]
+    }
+}
 
 # Testing
 # -------
