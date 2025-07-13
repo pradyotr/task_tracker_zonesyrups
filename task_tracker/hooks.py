@@ -170,7 +170,7 @@ scheduler_events = {
 		"task_tracker.tasks.monthly"
 	],
     "cron": {
-        "55 15 * * *": [
+        "30 8 * * *": [
             "task_tracker.api.send_automated_follow_up_email"
         ]
     }
